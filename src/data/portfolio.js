@@ -68,32 +68,13 @@ export const resume = {
       title: 'Gym Clicker Game',
       role: 'Unity Gameplay Programmer / Technical Artist',
       stack: 'Unity, C#, Blender, TextMeshPro, Unity UI',
+      repository: 'https://github.com/sarkicyn/GYMClicker.git',
       points: [
         'Built training, stamina, fatigue, progression, and reward systems for a gym-themed clicker game prototype.',
         'Implemented gameplay UI using TextMeshPro, buttons, sliders, panels, and real-time feedback states.',
         'Integrated C# gameplay logic with UI updates, player progression, and interactive game mechanics.',
         'Worked with Unity physics components, animation systems, object interactions, and gameplay script debugging.',
         'Created Blender assets, materials, and lighting for a basement gym environment.',
-      ],
-    },
-    {
-      title: 'Telegram Fitness Mini App',
-      role: 'Frontend Developer / UI Logic',
-      stack: 'JavaScript, HTML5, CSS3, Telegram Mini Apps',
-      points: [
-        'Designed a modular Telegram Mini App concept for fitness tracking, workout records, profiles, and progression.',
-        'Implemented UI logic for profile screens, workout records, navigation, modals, and level progression displays.',
-        'Built responsive frontend structure and practiced Telegram Mini App and bot integration concepts.',
-      ],
-    },
-    {
-      title: 'Blender to Unity Asset Workflow',
-      role: 'Technical Artist',
-      stack: 'Blender, Unity, PBR Materials, Texture Baking',
-      points: [
-        'Created game-ready gym equipment and environment assets for Unity scenes.',
-        'Produced PBR materials with metal, roughness, bump, rust, and dirt surface details.',
-        'Practiced texture baking, material export, lighting setup, and scene composition for Unity asset workflows.',
       ],
     },
   ],
@@ -165,6 +146,7 @@ export const projects = [
     type: 'Unity / C# / Blender',
     description:
       'A gym-themed clicker game prototype focused on training progression, stamina management, fatigue systems, competitions, and UI-based gameplay feedback.',
+    repository: 'https://github.com/sarkicyn/GYMClicker.git',
     points: [
       'Built training, stamina, fatigue, and progression systems',
       'Created Unity UI with TextMeshPro, buttons, sliders, and panels',
@@ -173,32 +155,6 @@ export const projects = [
       'Created Blender assets, materials, and environment lighting for a basement gym atmosphere',
     ],
     visual: 'gym',
-  },
-  {
-    title: 'Telegram Fitness Mini App',
-    type: 'JavaScript / Telegram Bot API / Frontend',
-    description:
-      'A Telegram Mini App concept for fitness tracking, workout records, profiles, and user progression.',
-    points: [
-      'Designed modular app structure with screens and modals',
-      'Implemented UI logic for profile, records, workouts, and navigation',
-      'Worked with Telegram Mini App and bot integration concepts',
-      'Built level/progression UI logic with JavaScript',
-    ],
-    visual: 'miniapp',
-  },
-  {
-    title: 'Blender to Unity Asset Workflow',
-    type: 'Blender / Unity / Technical Art',
-    description:
-      'A technical art workflow focused on modeling, material creation, baking textures, and transferring assets from Blender to Unity.',
-    points: [
-      'Created gym equipment and environment assets',
-      'Worked with PBR materials, rust, dirt, metal, roughness, and bump details',
-      'Practiced texture baking and material export workflows',
-      'Set up lighting and scene composition for a realistic gym environment',
-    ],
-    visual: 'pipeline',
   },
 ];
 

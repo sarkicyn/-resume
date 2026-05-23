@@ -35,6 +35,11 @@ function Projects() {
                   <li key={point}>{point}</li>
                 ))}
               </ul>
+              {project.repository ? (
+                <a className="button button-secondary project-link" href={project.repository} target="_blank" rel="noreferrer">
+                  GitHub
+                </a>
+              ) : null}
             </div>
           </Reveal>
         ))}

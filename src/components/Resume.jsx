@@ -52,6 +52,11 @@ function Resume() {
                   </div>
                   <span>{project.stack}</span>
                 </div>
+                {project.repository ? (
+                  <a className="resume-project-link" href={project.repository} target="_blank" rel="noreferrer">
+                    {project.repository}
+                  </a>
+                ) : null}
                 <ul>
                   {project.points.map((point) => (
                     <li key={point}>{point}</li>

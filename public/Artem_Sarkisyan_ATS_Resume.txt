@@ -18,23 +18,12 @@ Tools: Unity, C#, Blender, JavaScript, HTML5, CSS3, Git, GitHub, TextMeshPro, Un
 Project Experience
 Gym Clicker Game - Unity Gameplay Programmer / Technical Artist
 Stack: Unity, C#, Blender, TextMeshPro, Unity UI
+Repository: https://github.com/sarkicyn/GYMClicker.git
 - Built training, stamina, fatigue, progression, and reward systems for a gym-themed clicker game prototype.
 - Implemented gameplay UI using TextMeshPro, buttons, sliders, panels, and real-time feedback states.
 - Integrated C# gameplay logic with UI updates, player progression, and interactive game mechanics.
 - Worked with Unity physics components, animation systems, object interactions, and gameplay script debugging.
 - Created Blender assets, materials, and lighting for a basement gym environment.
-
-Telegram Fitness Mini App - Frontend Developer / UI Logic
-Stack: JavaScript, HTML5, CSS3, Telegram Mini Apps
-- Designed a modular Telegram Mini App concept for fitness tracking, workout records, profiles, and progression.
-- Implemented UI logic for profile screens, workout records, navigation, modals, and level progression displays.
-- Built responsive frontend structure and practiced Telegram Mini App and bot integration concepts.
-
-Blender to Unity Asset Workflow - Technical Artist
-Stack: Blender, Unity, PBR Materials, Texture Baking
-- Created game-ready gym equipment and environment assets for Unity scenes.
-- Produced PBR materials with metal, roughness, bump, rust, and dirt surface details.
-- Practiced texture baking, material export, lighting setup, and scene composition for Unity asset workflows.
 
 Additional Keywords
 Junior Unity Developer, Gameplay Programmer, Unity Gameplay Programmer, C# Developer, Technical Artist, Game UI Developer, Unity UI, TextMeshPro, Blender, PBR Materials, 3D Asset Pipeline, Telegram Mini Apps.
