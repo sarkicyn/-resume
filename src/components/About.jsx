@@ -42,7 +42,12 @@ function About() {
       <SectionHeading
         eyebrow="Professional Summary"
         id="about-title"
-        title="Systems thinking with a technical art eye."
+        title={
+          <>
+            <span className="heading-line">Systems thinking</span>
+            <span className="heading-line">with a technical art eye.</span>
+          </>
+        }
       />
       <div className="about-layout">
         <motion.div
