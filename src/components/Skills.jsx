@@ -6,10 +6,10 @@ function Skills() {
   return (
     <section className="section-shell skills-section" id="skills" aria-labelledby="skills-title">
       <SectionHeading
-        eyebrow="Focus Areas"
+        eyebrow="ATS Skills"
         id="skills-title"
-        title="Practical skills across gameplay, UI, and asset pipelines."
-        intro="Grouped around the workflows most useful for small teams and prototype-heavy game development."
+        title="Unity skills grouped for recruiters and real project work."
+        intro="A clear, ATS-friendly view of the tools and systems used in personal Unity development projects."
       />
 
       <div className="skills-grid">
@@ -23,9 +23,11 @@ function Skills() {
           >
             <span className="card-index">{String(index + 1).padStart(2, '0')}</span>
             <h3>{group.title}</h3>
-            <ul>
+            <ul className="skill-badge-list">
               {group.items.map((item) => (
-                <li key={item}>{item}</li>
+                <li className="skill-badge" key={item}>
+                  {item}
+                </li>
               ))}
             </ul>
           </Reveal>

@@ -5,7 +5,6 @@ import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import Projects from './components/Projects.jsx';
 import Resume from './components/Resume.jsx';
-import Skills from './components/Skills.jsx';
 import Tools from './components/Tools.jsx';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <Hero />
         <About />
         <Resume />
-        <Skills />
         <Projects />
         <Tools />
         <Contact />

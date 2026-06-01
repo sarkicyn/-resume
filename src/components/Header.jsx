@@ -5,7 +5,7 @@ function Header() {
     <header className="site-header">
       <a className="brand" href="#home" aria-label="Artem Sarkisyan home">
         <span>Artem Sarkisyan</span>
-        <small>Gameplay / Tech Art</small>
+        <small>Junior Unity Developer</small>
       </a>
 
       <nav className="nav-links" aria-label="Primary navigation">

@@ -1,5 +1,5 @@
 Artem Sarkisyan
-Junior Unity Gameplay Programmer / Technical Artist
+Junior Unity Developer / Unity C# Developer
 
 Contact
 Email: sarkicyn@icloud.com
@@ -7,23 +7,26 @@ GitHub: github.com/sarkicyn
 Telegram: @yeeeee11111
 
 Professional Summary
-Junior Gameplay Programmer and Technical Artist focused on Unity, C#, gameplay systems, UI integration, and Blender-to-Unity asset workflows. Experienced in building progression-based mechanics, stamina and reward systems, interactive UI, prototype gameplay loops, and 3D asset pipelines for game projects.
+Junior Unity Developer focused on Unity C# gameplay programming, UI implementation, animation logic, and interactive game mechanics. Practical personal project experience building stamina systems, level progression, progress bars, record tracking, tutorial flow, Animator Controller logic, and Blender-to-Unity asset workflows.
 
 Core Skills
-Unity Gameplay Programming: Unity, C# scripting, gameplay systems, core game mechanics, progression systems, stamina and fatigue systems, reward systems, event-driven mechanics, gameplay debugging, optimization basics.
-Game UI and Frontend: Unity UI, TextMeshPro, UI logic integration, buttons, sliders, panels, feedback states, JavaScript, HTML5, CSS3, responsive layouts, Telegram Mini Apps.
-Technical Art and 3D Pipeline: Blender, 3D modeling, PBR materials, node-based texturing, texture baking, lighting setup, scene composition, Blender-to-Unity asset pipeline, animation asset workflows.
-Tools: Unity, C#, Blender, JavaScript, HTML5, CSS3, Git, GitHub, TextMeshPro, Unity UI, Animator Controller, Vite, Telegram Mini Apps, PBR Materials, Texture Baking.
+Unity: Unity Engine, MonoBehaviour, GameObject, Transform, Animator Controller, Coroutines, Unity UI, TextMeshPro.
+C#: Object-Oriented Programming, Async/Await, Task, UniTask, Enums, Collections, LINQ, Events & Delegates (basic).
+Gameplay Systems: Level Systems, Progression Systems, Stamina Systems, Game State Management, Tutorial Systems, Record Tracking Systems.
+UI Systems: Canvas, TextMeshPro, Slider UI, Button Systems, CanvasGroup, UI Animation.
+Tools: Blender, Git, GitHub, Visual Studio.
 
-Project Experience
-Gym Clicker Game - Unity Gameplay Programmer / Technical Artist
-Stack: Unity, C#, Blender, TextMeshPro, Unity UI
+Featured Project
+Gym Progression Game - Personal Unity Prototype
+Description: A Unity prototype focused on click-based training mechanics, stamina management, level progression, UI feedback, tutorial flow, and animation-driven object interaction.
 Repository: https://github.com/sarkicyn/GYMClicker.git
-- Built training, stamina, fatigue, progression, and reward systems for a gym-themed clicker game prototype.
-- Implemented gameplay UI using TextMeshPro, buttons, sliders, panels, and real-time feedback states.
-- Integrated C# gameplay logic with UI updates, player progression, and interactive game mechanics.
-- Worked with Unity physics components, animation systems, object interactions, and gameplay script debugging.
-- Created Blender assets, materials, and lighting for a basement gym environment.
+Technologies: Unity, C#, TextMeshPro, Animator Controller, UI Sliders, Coroutines, Async/Await, Blender.
+- Implemented stamina and recovery systems.
+- Built level progression and experience systems.
+- Created tutorial UI flow.
+- Connected UI feedback with gameplay states.
+- Controlled object animations through Animator and C# scripts.
+- Imported and adjusted Blender assets for Unity.
 
 Additional Keywords
-Junior Unity Developer, Gameplay Programmer, Unity Gameplay Programmer, C# Developer, Technical Artist, Game UI Developer, Unity UI, TextMeshPro, Blender, PBR Materials, 3D Asset Pipeline, Telegram Mini Apps.
+Unity, C#, Gameplay Programming, Game Development, Game Mechanics, UI Implementation, Animator Controller, Coroutines, Object-Oriented Programming, Level Systems, Progression Systems, Unity UI, TextMeshPro, Git, Blender.

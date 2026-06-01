@@ -34,7 +34,11 @@ function Resume() {
             {resume.coreSkills.map((group) => (
               <div className="resume-skill-group" key={group.title}>
                 <h5>{group.title}</h5>
-                <p>{group.items.join(' | ')}</p>
+                <ul className="resume-chip-list">
+                  {group.items.map((item) => (
+                    <li key={item}>{item}</li>
+                  ))}
+                </ul>
               </div>
             ))}
           </div>
@@ -50,14 +54,18 @@ function Resume() {
                     <h5>{project.title}</h5>
                     <p>{project.role}</p>
                   </div>
-                  <span>{project.stack}</span>
+                  <ul className="resume-stack-list" aria-label={`${project.title} technologies`}>
+                    {project.stack.split(', ').map((technology) => (
+                      <li key={technology}>{technology}</li>
+                    ))}
+                  </ul>
                 </div>
                 {project.repository ? (
                   <a className="resume-project-link" href={project.repository} target="_blank" rel="noreferrer">
                     {project.repository}
                   </a>
                 ) : null}
-                <ul>
+                <ul className="resume-project-points">
                   {project.points.map((point) => (
                     <li key={point}>{point}</li>
                   ))}
@@ -73,7 +81,7 @@ function Resume() {
         </section>
 
         <div className="resume-actions">
-          <a className="button button-primary" href="/Artem_Sarkisyan_ATS_Resume.txt" download>
+          <a className="button button-primary" href={`${import.meta.env.BASE_URL}Artem_Sarkisyan_ATS_Resume.txt`} download>
             Download ATS TXT
           </a>
           <a className="button button-secondary" href="#contact">

@@ -3,10 +3,9 @@ import SectionHeading from './SectionHeading.jsx';
 import Reveal from './Reveal.jsx';
 
 const aboutParagraphs = [
-  'Junior Gameplay Programmer and Technical Artist focused on gameplay systems, UI integration, and technical art workflows in Unity and Blender.',
-  'Experienced in developing progression-based mechanics, gameplay logic, and interactive UI systems using C# in Unity.',
-  'Familiar with Blender-to-Unity asset pipelines, material creation, lighting setup, and animation workflows.',
-  'Also has basic frontend development experience through work on Telegram Mini Apps and modular UI systems.',
+  'I am a Junior Unity Developer focused on building gameplay systems and interactive experiences using C# and Unity.',
+  'My primary project is a gym-themed progression game where I design and implement gameplay mechanics such as stamina management, level progression, tutorial systems, UI interactions, and animation-driven object behavior.',
+  'I enjoy solving gameplay programming challenges, improving user experience, and continuously expanding my knowledge of Unity and game development.',
 ];
 
 const aboutTextVariants = {
@@ -44,8 +43,8 @@ function About() {
         id="about-title"
         title={
           <>
-            <span className="heading-line">Systems thinking</span>
-            <span className="heading-line">with a technical art eye.</span>
+            <span className="heading-line">Gameplay systems</span>
+            <span className="heading-line">with honest junior focus.</span>
           </>
         }
       />
@@ -66,15 +65,15 @@ function About() {
         <Reveal className="about-notes glass-panel" delay={0.1}>
           <div>
             <span>Focus</span>
-            <strong>Gameplay systems, UI feedback, asset workflows</strong>
+            <strong>Gameplay programming, Unity UI, animation logic</strong>
           </div>
           <div>
             <span>Tools</span>
-            <strong>Unity, Blender, C#, JavaScript</strong>
+            <strong>Unity, C#, TextMeshPro, Blender, Git</strong>
           </div>
           <div>
             <span>Direction</span>
-            <strong>Indie games, progression loops, interactive systems</strong>
+            <strong>Junior Unity roles, personal game projects, practical growth</strong>
           </div>
         </Reveal>
       </div>

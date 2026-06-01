@@ -14,17 +14,25 @@ function Projects() {
             whileHover={{ y: -8 }}
           >
             <div className="project-content">
-              <div className="project-kicker">
-                <span>Case Study {String(index + 1).padStart(2, '0')}</span>
-                <span>{project.type}</span>
-              </div>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
-              <ul>
-                {project.points.map((point) => (
-                  <li key={point}>{point}</li>
-                ))}
-              </ul>
+              {project.technologies ? (
+                <div className="project-tech-list" aria-label={`${project.title} technologies`}>
+                  {project.technologies.map((technology) => (
+                    <span key={technology}>{technology}</span>
+                  ))}
+                </div>
+              ) : null}
+              {project.responsibilities ? (
+                <div className="project-detail-block">
+                  <h4>Responsibilities</h4>
+                  <ul>
+                    {project.responsibilities.map((point) => (
+                      <li key={point}>{point}</li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
               {project.repository ? (
                 <a className="button button-secondary project-link" href={project.repository} target="_blank" rel="noreferrer">
                   GitHub
