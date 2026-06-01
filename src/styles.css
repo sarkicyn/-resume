@@ -302,6 +302,12 @@ p {
   gap: 12px;
 }
 
+.hero-contact-button {
+  width: min(100%, 340px);
+  min-height: 76px;
+  font-size: 1.02rem;
+}
+
 .button {
   display: inline-flex;
   align-items: center;

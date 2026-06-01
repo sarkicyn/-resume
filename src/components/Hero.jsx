@@ -16,10 +16,7 @@ function Hero() {
           </p>
 
           <div className="cta-row" aria-label="Primary actions">
-            <a className="button button-primary" href="#projects">
-              View Projects
-            </a>
-            <a className="button button-secondary" href="#contact">
+            <a className="button button-primary hero-contact-button" href="#contact">
               Contact Me
             </a>
           </div>
