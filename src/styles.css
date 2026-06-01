@@ -1268,9 +1268,10 @@ p {
 
 .contact-link-value {
   color: var(--ink);
-  font-size: clamp(calc(1.28rem + 1px), calc(2vw + 1px), calc(1.8rem + 1px));
+  font-size: clamp(1.05rem, 1.65vw, 1.46rem);
   font-weight: 850;
   line-height: 1.12;
+  white-space: nowrap;
 }
 
 .footer {
