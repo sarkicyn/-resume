@@ -71,6 +71,7 @@ export const resume = {
       role: 'Personal ASP.NET Core Backend Project',
       stack:
         'C#, .NET, ASP.NET Core, EF Core, PostgreSQL, JWT, OAuth, Docker, Testing',
+      repository: 'https://github.com/sarkicyn/myfirstapii.git',
       points: [
         'Built a REST API with ASP.NET Core and structured endpoint, service, and data-access layers.',
         'Implemented persistence with Entity Framework Core and PostgreSQL, including CRUD workflows.',
@@ -155,6 +156,7 @@ export const projects = [
     type: 'ASP.NET Core API',
     description:
       'A personal backend project focused on REST API development, relational persistence, authentication, containerized local setup, and testable server-side code.',
+    repository: 'https://github.com/sarkicyn/myfirstapii.git',
     technologies: [
       'C#',
       '.NET',
