@@ -14,26 +14,28 @@ function Projects() {
             whileHover={{ y: -8 }}
           >
             <div className="project-content">
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              {project.technologies ? (
-                <div className="project-tech-list" aria-label={`${project.title} technologies`}>
-                  {project.technologies.map((technology) => (
-                    <span key={technology}>{technology}</span>
-                  ))}
-                </div>
-              ) : null}
-              {project.repository ? (
-                <a
-                  className="button button-primary project-link"
-                  href={project.repository}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label={`Open ${project.title} repository on GitHub`}
-                >
-                  View on GitHub
-                </a>
-              ) : null}
+              <div className="project-main">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                {project.technologies ? (
+                  <div className="project-tech-list" aria-label={`${project.title} technologies`}>
+                    {project.technologies.map((technology) => (
+                      <span key={technology}>{technology}</span>
+                    ))}
+                  </div>
+                ) : null}
+                {project.repository ? (
+                  <a
+                    className="button button-primary project-link"
+                    href={project.repository}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`Open ${project.title} repository on GitHub`}
+                  >
+                    View on GitHub
+                  </a>
+                ) : null}
+              </div>
               {project.responsibilities ? (
                 <div className="project-detail-block">
                   <h4>Responsibilities</h4>
