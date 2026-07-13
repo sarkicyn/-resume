@@ -23,6 +23,17 @@ function Projects() {
                   ))}
                 </div>
               ) : null}
+              {project.repository ? (
+                <a
+                  className="button button-primary project-link"
+                  href={project.repository}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label={`Open ${project.title} repository on GitHub`}
+                >
+                  View on GitHub
+                </a>
+              ) : null}
               {project.responsibilities ? (
                 <div className="project-detail-block">
                   <h4>Responsibilities</h4>
@@ -32,11 +43,6 @@ function Projects() {
                     ))}
                   </ul>
                 </div>
-              ) : null}
-              {project.repository ? (
-                <a className="button button-secondary project-link" href={project.repository} target="_blank" rel="noreferrer">
-                  GitHub
-                </a>
               ) : null}
             </div>
           </Reveal>
