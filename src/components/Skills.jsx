@@ -8,8 +8,8 @@ function Skills() {
       <SectionHeading
         eyebrow="ATS Skills"
         id="skills-title"
-        title="Unity skills grouped for recruiters and real project work."
-        intro="A clear, ATS-friendly view of the tools and systems used in personal Unity development projects."
+        title="Backend skills grouped for recruiters and real project work."
+        intro="A clear, ATS-friendly view of the technologies and practices used in the MyApiBlya backend project."
       />
 
       <div className="skills-grid">

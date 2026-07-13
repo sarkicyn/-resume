@@ -6,13 +6,13 @@ function Hero() {
     <section className="hero section-shell" id="home" aria-labelledby="hero-title">
       <div className="hero-grid">
         <Reveal className="hero-copy">
-          <p className="eyebrow">Unity C# Developer</p>
+          <p className="eyebrow">C#/.NET Backend Developer</p>
           <h1 className="hero-title" id="hero-title">
-            Junior Unity Developer
+            Junior C#/.NET Backend Developer
           </h1>
           <p className="hero-subtitle">
-            Unity C# developer focused on gameplay systems, UI implementation, animation
-            logic, and interactive game mechanics.
+            Backend developer focused on ASP.NET Core APIs, secure authentication,
+            relational data, and maintainable server-side systems.
           </p>
 
           <div className="cta-row" aria-label="Primary actions">
@@ -25,12 +25,12 @@ function Hero() {
 
       <Marquee
         items={[
-          'Unity Gameplay',
-          'C# Gameplay Programming',
-          'Progression Systems',
-          'Unity UI',
-          'Animator Controller',
-          'Blender Assets',
+          'C# / .NET',
+          'ASP.NET Core',
+          'Entity Framework Core',
+          'PostgreSQL',
+          'JWT / OAuth',
+          'Docker / Testing',
         ]}
       />
     </section>

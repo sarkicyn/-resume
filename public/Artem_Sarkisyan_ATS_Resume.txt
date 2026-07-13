@@ -1,5 +1,5 @@
 Artem Sarkisyan
-Junior Unity Developer / Unity C# Developer
+Junior / Junior+ C#/.NET Backend Developer
 
 Contact
 Email: sarkicyn@icloud.com
@@ -7,26 +7,23 @@ GitHub: github.com/sarkicyn
 Telegram: @yeeeee11111
 
 Professional Summary
-Junior Unity Developer focused on Unity C# gameplay programming, UI implementation, animation logic, and interactive game mechanics. Practical personal project experience building stamina systems, level progression, progress bars, record tracking, tutorial flow, Animator Controller logic, and Blender-to-Unity asset workflows.
+Junior / Junior+ C#/.NET Backend Developer focused on ASP.NET Core REST APIs, secure authentication, relational data access, and maintainable server-side systems. Practical personal project experience building MyApiBlya with EF Core, PostgreSQL, JWT, OAuth, Docker, and testing.
 
 Core Skills
-Unity: Unity Engine, MonoBehaviour, GameObject, Transform, Animator Controller, Coroutines, Unity UI, TextMeshPro.
-C#: Object-Oriented Programming, Async/Await, Task, UniTask, Enums, Collections, LINQ, Events & Delegates (basic).
-Gameplay Systems: Level Systems, Progression Systems, Stamina Systems, Game State Management, Tutorial Systems, Record Tracking Systems.
-UI Systems: Canvas, TextMeshPro, Slider UI, Button Systems, CanvasGroup, UI Animation.
-Tools: Blender, Git, GitHub, Visual Studio.
+C# / .NET: C#, .NET, Object-Oriented Programming, Async/Await, LINQ, Collections, Dependency Injection.
+ASP.NET Core: REST API, ASP.NET Core Web API, Routing, Middleware, Model Validation, Swagger / OpenAPI.
+Data & Security: Entity Framework Core, PostgreSQL, SQL, JWT Authentication, OAuth, CRUD Operations.
+Engineering Practices: Docker, Unit Testing, Integration Testing, Git / GitHub, Error Handling, Layered Architecture.
 
 Featured Project
-Gym Progression Game - Personal Unity Prototype
-Description: A Unity prototype focused on click-based training mechanics, stamina management, level progression, UI feedback, tutorial flow, and animation-driven object interaction.
-Repository: https://github.com/sarkicyn/GYMClicker.git
-Technologies: Unity, C#, TextMeshPro, Animator Controller, UI Sliders, Coroutines, Async/Await, Blender.
-- Implemented stamina and recovery systems.
-- Built level progression and experience systems.
-- Created tutorial UI flow.
-- Connected UI feedback with gameplay states.
-- Controlled object animations through Animator and C# scripts.
-- Imported and adjusted Blender assets for Unity.
+MyApiBlya - Personal ASP.NET Core Backend Project
+Description: A personal backend project focused on REST API development, relational persistence, authentication, containerized local setup, and testable server-side code.
+Technologies: C#, .NET, ASP.NET Core, Entity Framework Core, PostgreSQL, JWT, OAuth, Docker, Testing.
+- Built a REST API with ASP.NET Core and structured endpoint, service, and data-access layers.
+- Implemented persistence with Entity Framework Core and PostgreSQL, including CRUD workflows.
+- Worked with JWT authentication and OAuth-based authorization flows.
+- Configured Docker for a reproducible local development environment.
+- Covered key backend scenarios with unit and integration testing.
 
 Additional Keywords
-Unity, C#, Gameplay Programming, Game Development, Game Mechanics, UI Implementation, Animator Controller, Coroutines, Object-Oriented Programming, Level Systems, Progression Systems, Unity UI, TextMeshPro, Git, Blender.
+Junior C#/.NET Backend Developer, C# Developer, .NET Developer, ASP.NET Core, REST API, Entity Framework Core, PostgreSQL, JWT, OAuth, Docker, Unit Testing, Integration Testing, Object-Oriented Programming, Dependency Injection, LINQ, SQL, Git, GitHub.

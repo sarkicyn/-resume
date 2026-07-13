@@ -5,7 +5,7 @@ import SectionHeading from './SectionHeading.jsx';
 function Tools() {
   return (
     <section className="section-shell tools" aria-labelledby="tools-title">
-      <SectionHeading eyebrow="Tools" id="tools-title" title="Technology stack and production vocabulary." />
+      <SectionHeading eyebrow="Tools" id="tools-title" title="Backend stack and production vocabulary." />
 
       <Reveal className="tag-cloud">
         {tools.map((tool) => (

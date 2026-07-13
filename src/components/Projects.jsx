@@ -3,7 +3,7 @@ import Reveal from './Reveal.jsx';
 
 function Projects() {
   return (
-    <section className="section-shell projects" id="projects" aria-label="Projects">
+    <section className="section-shell projects" id="projects" aria-label="Backend Projects">
       <div className="project-list">
         {projects.map((project, index) => (
           <Reveal

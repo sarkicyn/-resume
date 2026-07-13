@@ -6,7 +6,7 @@ function Contact() {
     <section className="section-shell contact" id="contact" aria-labelledby="contact-title">
       <Reveal className="contact-panel glass-panel">
         <p className="eyebrow">Contact</p>
-        <h2 id="contact-title">Interested in gameplay programming, technical art, and interactive systems.</h2>
+        <h2 id="contact-title">Interested in backend APIs, integrations, and reliable data services.</h2>
 
         <div className="contact-links">
           <motion.a href="mailto:sarkicyn@icloud.com" whileHover={{ y: -5 }} whileTap={{ scale: 0.99 }}>

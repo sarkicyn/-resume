@@ -3,9 +3,9 @@ import SectionHeading from './SectionHeading.jsx';
 import Reveal from './Reveal.jsx';
 
 const aboutParagraphs = [
-  'I am a Junior Unity Developer focused on building gameplay systems and interactive experiences using C# and Unity.',
-  'My primary project is a gym-themed progression game where I design and implement gameplay mechanics such as stamina management, level progression, tutorial systems, UI interactions, and animation-driven object behavior.',
-  'I enjoy solving gameplay programming challenges, improving user experience, and continuously expanding my knowledge of Unity and game development.',
+  'I am a Junior / Junior+ C#/.NET Backend Developer focused on building REST APIs, working with relational data, and implementing secure server-side logic.',
+  'My primary project is MyApiBlya, a backend API where I work with ASP.NET Core, Entity Framework Core, PostgreSQL, authentication, Docker, and automated testing.',
+  'I enjoy turning requirements into clear API contracts, reliable data access, and maintainable backend code while steadily expanding my .NET engineering toolkit.',
 ];
 
 const aboutTextVariants = {
@@ -43,7 +43,7 @@ function About() {
         id="about-title"
         title={
           <>
-            <span className="heading-line">Gameplay systems</span>
+            <span className="heading-line">Backend systems</span>
             <span className="heading-line">with honest junior focus.</span>
           </>
         }
@@ -65,15 +65,15 @@ function About() {
         <Reveal className="about-notes glass-panel" delay={0.1}>
           <div>
             <span>Focus</span>
-            <strong>Gameplay programming, Unity UI, animation logic</strong>
+            <strong>REST APIs, authentication, data access, backend architecture</strong>
           </div>
           <div>
             <span>Tools</span>
-            <strong>Unity, C#, TextMeshPro, Blender, Git</strong>
+            <strong>C#, .NET, ASP.NET Core, EF Core, PostgreSQL, Docker</strong>
           </div>
           <div>
             <span>Direction</span>
-            <strong>Junior Unity roles, personal game projects, practical growth</strong>
+            <strong>Junior / Junior+ backend roles and practical product development</strong>
           </div>
         </Reveal>
       </div>
